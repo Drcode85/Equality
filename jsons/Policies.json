@@ -672,5 +672,33 @@
                 ]
             }
         ]
-    }
+     },
+     {
+        "name": "Equality",
+        "era": "Atomic era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 20,
+            "Diplomatic": 10,
+            "Domination": 0,
+            "Scientific": 0
+        },
+          "uniques": [
+            "[+2 Happiness] [in all cities]",
+            "[+1 Culture] [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "",
+                "uniques": [
+                "[+1 Happiness] [in all cities]"],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Human Right",
+                "uniques": ["[+2 Happiness] from every [Wonder]"],
+                "row": 1,
+                "column": 1
+            },
 ]
