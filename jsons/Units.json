@@ -16,9 +16,9 @@
 	},
 	{
 		"name": "SuperB Tank",
-		"unitType": "Armored Armor",
+		"unitType": "Armored",
 		"uniqueTo": "Aliens",
-		"replace": "Modern 
+		"replace": "Modern Armor",
 		"movement": 15,
 		"strength": 500,
 		"rangedStrength": 50,
