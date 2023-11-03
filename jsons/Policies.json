@@ -1,4 +1,4 @@
-p[
+[
     {
         "name": "Tradition",
         "era": "Ancient era",
@@ -624,7 +624,7 @@ p[
                 "name": "Surveillance State",
                 "uniques": [
                     "[-12]% Unhappiness [in all cities]",
-                    "[-12]% Culture [in all cities]"
+                    "[-20]% Culture [in puppet cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -633,7 +633,8 @@ p[
                 "name": "Propaganda Machine",
                 "uniques": [
                     "[+1 Happiness] from every specialist [in all cities]",
-                    "[+1 Happiness] in every [Military Academy] [in all cities]"
+                    "[+1 Happiness +1 Culture] in every [Public School] [in all cities]",
+                    "[+1 Happiness, +1 Culture] in every [University] [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
@@ -642,7 +643,8 @@ p[
                 "name": "Censorship",
                 "requires": ["Propaganda Machine"],
                 "uniques": [
-                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                    "[-15]% Unhappiness [in all cities]",
+                    "[-10]% Culture [in all cities]"
                 ],
                 "row": 2,
                 "column": 5
@@ -651,7 +653,8 @@ p[
                 "name": "Ingsoc",
                 "requires": ["Surveillance State"],
                 "uniques": [
-                    "[-15]% maintenance cost for buildings [in all cities]"
+                    "[-10]% maintenance cost for [Science] buildings [in all cities]",
+                    "Free [2] [Rifleman] appear"
                 ],
                 "row": 2,
                 "column": 1
@@ -660,15 +663,17 @@ p[
                 "name": "Total Control",
                 "requires": ["Ingsoc", "Propaganda Machine"],
                 "uniques": [
-                    "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]"
+                    "Enter Golden Age",
+                    "[-45]% Unhappiness [in all cities]",
+                    "[-1 Culture] per [6] population [in all cities]",
+                    "[-1 Faith] per [6] population [in all cities]",
+                    "[+2 Gold, +2 Production] per [10] Happiness"
                 ],
                 "row": 3,
                 "column": 3
             },
             {
-                "name": "Completist Complete",
+                "name": "Controlist Complete",
                 "uniques": [
                     "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
