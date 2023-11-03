@@ -16,16 +16,17 @@
 	},
 	{
 		"name": "SuperB Tank",
-		"unitType": "Armored",
+		"unitType": "Armored Armor",
 		"uniqueTo": "Aliens",
+		"replace": "Modern 
 		"movement": 15,
 		"strength": 500,
 		"rangedStrength": 50,
 		"range": 3,
 		"cost": 1200,
-		"requiredTech": "Laser",
+		"requiredTech": "Lasers",
 		"requiredResource": "Uranium",
-		"promotions": ["Charge", "Blitz", "Besiege", "Amphibious", "Indirect Fire", "Shock III", "Drill III", "Ignore terrain cost", "Sight"],
+		"promotions": ["Charge", "Blitz", "Besiege", "Amphibious", "Indirect Fire", "Shock III", "Drill III", "Sentry"],
 		"attackSound": "phasers"
 	}
 ]
