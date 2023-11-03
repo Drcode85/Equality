@@ -1,4 +1,4 @@
-[
+p[
     {
         "name": "Tradition",
         "era": "Ancient era",
@@ -644,7 +644,7 @@
                 "uniques": [
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
                 ],
-                "row": 1,
+                "row": 2,
                 "column": 5
             },
             {
