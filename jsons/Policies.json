@@ -624,7 +624,8 @@
                 "name": "Surveillance State",
                 "uniques": [
                     "[-12]% Unhappiness [in all cities]",
-                    "[-20]% Culture [in puppet cities]"
+                    "[-20]% Unhappiness [in puppet cities]",
+                    "[-20]% Unhappiness [in annex cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -654,7 +655,8 @@
                 "requires": ["Surveillance State"],
                 "uniques": [
                     "[-10]% maintenance cost for [Science] buildings [in all cities]",
-                    "Free [2] [Rifleman] appear"
+                    "Free [2] [Rifleman] appear",
+                    "[+5]% Culture [in all cities]"
                 ],
                 "row": 2,
                 "column": 1
@@ -663,11 +665,10 @@
                 "name": "Total Control",
                 "requires": ["Ingsoc", "Propaganda Machine"],
                 "uniques": [
-                    "Enter Golden Age",
                     "[-45]% Unhappiness [in all cities]",
                     "[-1 Culture] per [6] population [in all cities]",
                     "[-1 Faith] per [6] population [in all cities]",
-                    "[+2 Gold, +2 Production] per [10] Happiness"
+                    "[-75]% maintenance cost for every [Happiness] buildings [in all cities]"
                 ],
                 "row": 3,
                 "column": 3
@@ -675,8 +676,9 @@
             {
                 "name": "Controlist Complete",
                 "uniques": [
-                    "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
-                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                    "[+2 Production, +2 Science, +2 Gold] [in all cities]",
+                    "[+1 Happiness, +1 Production, +1 Gold] for every <per [10] Happiness>",
+                    "Empire enters golden age"
                 ]
             }
         ]
