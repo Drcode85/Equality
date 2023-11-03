@@ -674,31 +674,41 @@
         ]
      },
      {
-        "name": "Equality",
+        "name": "Controlist",
         "era": "Atomic era",
         "priorities": {
-            "Neutral": 0,
-            "Cultural": 20,
-            "Diplomatic": 10,
-            "Domination": 0,
-            "Scientific": 0
+            "Neutral": 10,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 25,
+            "Scientific": 10
         },
           "uniques": [
-            "[+2 Happiness] [in all cities]",
-            "[+1 Culture] [in all cities]"
+            "[+22]% Happiness [in all cities]",
+            "[-1 Culture] [in all cities]"
         ],
         "policies": [
             {
-                "name": "",
+                "name": "Surveillance state",
                 "uniques": [
                 "[+1 Happiness] [in all cities]"],
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "Human Right",
-                "uniques": ["[+2 Happiness] from every [Wonder]"],
-                "row": 1,
+                "name": "Total Supression",
+                "uniques": [
+                    "[-20]% Unhappiness from every [in all cities]",
+                    "[-26]% Unhappiness from every [in annexed cities]",
+                    "[-22]% Unhappiness from every [in puppet cities]"
+                "row": 2,
                 "column": 1
             },
+            { "name": "Controlist Complete",
+                "uniques": [
+                    "[+2 Production, +3 Science, -2 Faith, -2 Culture] [in all cities]",
+                    "All other civilizations culture and faith reduce [-20]% Culture and [-20]% Faith to [All]",
+                    "Triggers the following global alert: [Our Culture and Faith has reduce!]"
+                ]
+            }
 ]
