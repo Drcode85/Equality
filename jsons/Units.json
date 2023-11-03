@@ -1,4 +1,4 @@
-[
+3[
 	{
 		"name": "Phasers",
 		"unitType": "Ranged",
@@ -27,4 +27,5 @@
 		"requiredResource": ["Aluminum, Uranium, Oil"],
 		"promotions": ["Charge", "Blitz", "Besiege", "Amphibious", "Indirect Fire", "Shock III", "Drill III", "Ignore terrain cost", "Sight"],
 		"attackSound": "phasers"
+	}
 ]
