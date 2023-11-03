@@ -24,7 +24,7 @@
 		"range": 3,
 		"cost": 1200,
 		"requiredTech": "Laser",
-		"requiredResource": ["Aluminum, Uranium, Oil"],
+		"requiredResource": ["Aluminum", "Uranium", "Oil"],
 		"promotions": ["Charge", "Blitz", "Besiege", "Amphibious", "Indirect Fire", "Shock III", "Drill III", "Ignore terrain cost", "Sight"],
 		"attackSound": "phasers"
 	}
