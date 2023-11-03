@@ -701,8 +701,9 @@
                     "[-20]% Unhappiness from every [in all cities]",
                     "[-26]% Unhappiness from every [in annexed cities]",
                     "[-22]% Unhappiness from every [in puppet cities]"
-                "row": 2,
-                "column": 1
+                ],
+                "row": 1,
+                "column": 2
             },
             { "name": "Controlist Complete",
                 "uniques": [
