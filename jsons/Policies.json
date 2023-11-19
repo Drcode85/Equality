@@ -618,13 +618,13 @@
         "policies": [
             {
                 "name": "Weaponized",
-                "uniques": ["[+30]% Strength <for [Military] units> <in [Fort] improvement>", "[-37]% Gold cost of upgrading <for [Military] units>"],
+                "uniques": ["[+30]% Strength <for [Military] units> in [Fort]", "[-37]% Gold cost of upgrading <for [Military] units>"],
                 "row": 1,
                 "column": 2
             },
             {
                 "name": "Tactical Training",
-                "uniques": ["[+20]% Strength <for [Military] units>", "New [Military] units start with [20] Experience [in all cities]"],
+                "uniques": ["[+20]% Strength <for [Military] units>", "[+25] XP gained from combat", "New [Military] units start with [20] Experience [in all cities]"],
                 "row": 1,
                 "column": 4
             },
