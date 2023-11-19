@@ -655,7 +655,7 @@
             {
                 "name": "Militarization Complete",
                 "uniques": [
-                    "[Military] units gain [1] Experience <per [99999] turn>",
+                    "[Military] units gain [2] Experience <per [2] turn>",
                     "[Great General] is earned [37]% faster"
                 ]
             }
