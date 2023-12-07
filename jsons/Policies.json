@@ -566,7 +566,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-                    "Quantity of strategic resources produced by the empire +[100]%",
+                    "Quantity of strategic resources produced by the empire +[100]",
                     "[+2] Movement <for [Great General] units>"
                 ],
                 "requires": ["Populism", "Militarism"],
@@ -604,27 +604,27 @@
         ]
     },
     {
-        "name": "Militarization",
+        "name": "Industrialization",
         "era": "Industrial era",
         "priorities": {
-            "Neutral": 50,
-            "Cultural": 40,
-            "Diplomatic": 40,
-            "Domination": 50,
-            "Scientific": 40
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 20,
+            "Domination": 30,
+            "Scientific": 30
         },
         "uniques": [
-            "New [Military] units start with [15] Experience [in capital]"],
+            "[+15]% [Production] <while the empire is happy>"],
         "policies": [
             {
-                "name": "Weaponized",
-                "uniques": ["[+30]% Strength <for [Military] units> in [Fort]", "[-37]% Gold cost of upgrading <for [Military] units>"],
+                "name": "Modernization",
+                "uniques": ["[+5]% [Production] [in all cities] with [Factory]", "[+1 Production] for every [Production] building"],
                 "row": 1,
                 "column": 2
             },
             {
-                "name": "Tactical Training",
-                "uniques": ["[+20]% Strength <for [Military] units>", "[+25] XP gained from combat", "New [Military] units start with [20] Experience [in all cities]"],
+                "name": "Worker Union",
+                "uniques": ["[-18]% Maintenance <for [Worker] units>", "[+1 Happiness] from every [Factory]", "New [Military] units start with [20] Experience"],
                 "row": 1,
                 "column": 4
             },
@@ -639,8 +639,8 @@
                 "column": 2
             },
             {
-                "name": "Specialize Training",
-                "uniques": ["New [Military] units start with [Shock I] Promotion [in all cities] with [Military Academy]"]
+                "name": "Mass Production",
+                "uniques": ["Quantity of luxury resources produced by the empire +[100]%", "[+22]% [Production] [in all cities]"]
                 "requires": ["Tactical Training"],
                 "row": 2,
                 "column": 4
