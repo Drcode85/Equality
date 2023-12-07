@@ -1,4 +1,4 @@
-[
+9[
     {
         "name": "Tradition",
         "era": "Ancient era",
@@ -634,29 +634,29 @@
                     "[-33]% Maintenance cost <for [Military] units> <in [Friendly Land] tiles>",
                     "[-24]% Maintenance cost <for [Military] units> <in [Enemy Land] tiles>"
                 ],
-                "requires": ["Weaponized"],
+                // requires: [""],
                 "row": 2,
                 "column": 2
             },
             {
                 "name": "Mass Production",
                 "uniques": ["Quantity of luxury resources produced by the empire +[100]%", "[+22]% [Production] [in all cities]"]
-                "requires": ["Tactical Training"],
+                // "requires": ["Tactical Training"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Mastery Strategics Expertly",
                 "uniques": ["[+20]% Strength <for [Military] units>", "[+24]% Strength <vs [Military] units> <when defending>"],
-                "requires": ["Specialize Training", "Advance Logistics System"],
+               // "requires": ["Specialize Training", "Advance Logistics System"],
                 "row": 3,
                 "column": 3
             },
             {
-                "name": "Militarization Complete",
+                "name": "Industrialization Complete",
                 "uniques": [
-                    "[Military] units gain [2] Experience <per [2] turn>",
-                    "[Great General] is earned [37]% faster"
+                    "[+3 Gold, +3 Science, +2 Production] from every [Manufactory]",
+                    "Free [Great Engineer] appear"
                 ]
             }
         ]
